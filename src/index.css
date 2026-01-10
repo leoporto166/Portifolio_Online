@@ -3,3 +3,8 @@
 .Body {
   background-color: #002409;
 }
+
+.linha{
+  height: 0.5px;
+  background-color: white;
+}
