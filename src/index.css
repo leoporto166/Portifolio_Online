@@ -1,11 +1,32 @@
 @import "tailwindcss";
 
 .Body {
-  background-color: #002409;
+  background: radial-gradient(
+    circle at center,
+    #081E0A 0%,
+    #000 70%
+    
+  );
   height: auto;
+}
+
+.BodyBranco {
+  background: radial-gradient(
+    circle at center,
+    #ecfdf3 0%,
+    #d1fae5 45%,
+    #ffffff 75%
+  );
+
+height: auto;
 }
 
 .linha{
   height: 0.5px;
   background-color: white;
+}
+
+.linhaBranco{
+  height: 0.5px;
+  background-color: black;
 }
